@@ -9,7 +9,6 @@ let homeContent="";
 let projectContent="";
 let registerContent="";
 const port=require('minimist')(process.argv.slice(2));
-console.log(port.port)
 
 fs.readFile("home.html",(err,home)=>{
     if(err){
